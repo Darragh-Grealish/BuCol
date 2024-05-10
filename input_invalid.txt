@@ -1,0 +1,17 @@
+BEGINING.
+XXX XY-1.
+XXXX Y.
+XXXX Z.
+XXXX XXY-1.
+XXXX Z.
+
+BODY.
+PRINT "Please enter a number? ".
+INPUT Y.
+
+MOVE 15000 TO Z.
+MOVE Z TO XY-1.
+ADD Y TO Z.
+PRINT XY;" + ";Y;"=";Z.
+
+END
